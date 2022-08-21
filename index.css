@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #7AA1D2;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+
+#container {
+    width: 550px;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(#77EED8 , #9EABE4);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#heading {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    margin-top: 33px;
+    padding-top: 20px;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+
+#number{
+    background: linear-gradient(#9795EF, #F9C5D1);
+    width: 117px;
+    height: 80px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    color: white;
+    font-size: 25px; 
+    margin-left: 200px;
+    text-align: center;
+}
+
+#convert {
+    margin-top: 40px;
+    width: 90px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 215px;
+    border-radius: 5px;
+    line-height: 24px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color:#2b1331;
+    background:linear-gradient(#D6AED6, #98D9E1);
+}
+
+#allconverts {
+    padding-top: 10px;
+    width: 550px;
+    height: 370px;
+   margin-left: auto;
+   margin-right: auto;
+    background: linear-gradient(#A88BEB,#F8CEEC);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#length {
+    width: 520px;
+    height: 95px;
+    background: white;
+    border-radius: 4.68077px 0px 0px 0px;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: #3D3D3D;
+    border-radius: 5px;
+    line-height: 30px;
+}
+
+span {
+    font-size: 25px;
+}
+
+
+#meter{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#feet {
+    font-size: 20px;
+}
+
+
+
+#volume {
+    width: 520px;
+    height: 95px;
+    background: white;
+    border-radius: 4.68077px 0px 0px 0px;
+    margin-left: 15px;
+    margin-top: 20px;
+    color: #3D3D3D;
+    border-radius: 5px;
+}
+
+#gallon{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#liter {
+    font-size: 20px;
+}
+
+#mass {
+    width: 520px;
+    height: 95px;
+    background: white;
+    border-radius: 4.68077px 0px 0px 0px;
+    margin-left: 15px;
+    margin-top: 20px;
+    color: #3D3D3D;
+    border-radius: 5px;
+}
+
+#kilograms{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#pounds {
+    font-size: 20px;
+}
+
+#allheading {
+    width: 346px;
+  height: 25px;
+  margin-left: 70px;
+text-align: center;
+color: #5A537B;
+font-size: 20px;
+padding-top: 10px;
+margin-bottom: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
